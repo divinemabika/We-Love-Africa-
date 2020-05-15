@@ -1,0 +1,70 @@
+* {box-sizing:border-box}
+/* Style inputs */
+.mySlides {display: flow-root;}
+img {vertical-align: center;}
+
+/* Style inputs home section */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  width: 700px;
+  height: 500px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+/* Style inputs home section */
+.text {
+  color: red;
+}
+/* Style inputs home section */
+.numbertext {
+  color: red;
+  position: relative;
+  bottom: -565px;
+}
+/* Style inputs contact section */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+/* Create two columns that float next to eachother contact section */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+
+  }
+  /* Style inputs contact section */
+  #maps{
+  position: absolute;
+  left: 200px;
+  top: 850px;
+  }
+
+  .box {
+  display: flex;display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+        }
+  .navigation{
+    justify-content: flex-end;
+    align-self: flex-end;
+    justify-content: space-between;
+  }
+.navigation{
+  display: flex;
+  flex-direction: column;
+}
